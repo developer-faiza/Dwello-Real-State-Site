@@ -206,7 +206,7 @@ nav ul li a {
   font-size: 40px;
   line-height: 140%;
   text-align: center;
-  color: var(--text-brown);
+  color: var(--heading);
 }
 .choose-us span {
   font-weight: 700;
@@ -373,19 +373,19 @@ nav ul li a {
   background: #f4efec;
   text-align: center;
 }
-.about-cards {
-  margin-bottom: 20px;
-  display: flex;
-  justify-content: center;
-  gap: 24px;
-  flex-wrap: wrap;
-}
 .about-us h1 {
   font-size: 40px;
   font-weight: 800;
   color: #2b170e;
   line-height: 1.3;
   margin-bottom: 50px;
+}
+.about-cards {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
 }
 
 .about-card {
