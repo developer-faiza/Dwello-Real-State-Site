@@ -606,7 +606,6 @@ nav ul li a {
   display: none;
 }
 
-/* deskttop */
 @media screen and (max-width: 1024px) {
   .main-container {
     width: 100%;
@@ -642,6 +641,7 @@ nav ul li a {
     padding: 15px;
     width: 80px;
   }
+
   .hero-container {
     width: 60%;
     display: flex;
@@ -968,10 +968,6 @@ nav ul li a {
   .about-footer .socials {
     gap: 5px;
   }
-  .mobile-menu,
-  .mobile-navigation {
-    display: none;
-  }
 }
 @media screen and (max-width: 600px) {
   .main-container {
@@ -988,16 +984,14 @@ nav ul li a {
     width: 100%;
     height: 100vh;
     background: white;
-
     display: flex;
     flex-direction: column;
-
     transform: translateX(-100%);
     opacity: 0;
     visibility: hidden;
-
     transition: all 0.4s ease;
     z-index: 9999;
+    cursor: pointer;
   }
 
   .mobile-navigation.active {
