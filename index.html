@@ -19,7 +19,14 @@
         <div class="logo">
           <img src="./images/logo.png" alt="Logo" />
         </div>
-        <nav>
+        <div class="mobile-menu">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <nav class="mobile-navigation">
+          <div class="nav-top">
+            <i class="fa-solid fa-xmark close"></i>
+          </div>
           <ul>
             <li>
               <a href="#">Home</a>
@@ -34,16 +41,17 @@
               <a href="#contact">Contact</a>
             </li>
           </ul>
+
+          <div class="icons">
+            <span class="search">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </span>
+            <span class="user">
+              <i class="fa-regular fa-user"></i>
+            </span>
+            <button>Sign up</button>
+          </div>
         </nav>
-        <div class="icons">
-          <span class="search">
-            <i class="fa-solid fa-magnifying-glass"></i>
-          </span>
-          <span class="user">
-            <i class="fa-regular fa-user"></i>
-          </span>
-          <button>Sign up</button>
-        </div>
       </div>
       <div class="hero-container">
         <h1>
@@ -377,5 +385,7 @@
         </div>
       </div>
     </div>
+
+    <script src="./main.js"></script>
   </body>
 </html>
